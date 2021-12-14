@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="container">
+        <!-- <div class="slider">
+            <h2> Bài 1: Slider</h2>
+
+        </div> -->
+        <div class="signIn">
+            <form class="form-login">
+                <div class="header">
+                    <h2>ĐĂNG KÍ THÀNH VIÊN</h2>
+                </div>
+                <div class="form-text">
+                    <label>Mã sinh viên:</label>
+                    <input type="text" id="id">
+                    <br>
+                    <span id = 'id-error'></span> 
+                                  
+                </div>
+                <div class="form-text">
+                    <label>Họ Tên:</label>
+                    <input type="text" id="name"> 
+                    <br/>
+                    <span id = "name-error"></span>               
+                </div>
+                <div class="form-text">
+                    <label>Email:</label>
+                    <input type="text" id="email">
+                    <span id = "email-error"></span>                
+                </div>
+                <div class="form-text">
+                    <label>Giới tính:</label>
+                    <input type="radio" name="gender" value="male" checked id="gender"> Nam
+                    <input type="radio" name="gender" value="female"> Nữ<br>
+                    <span id = "error"></span>                
+                </div>
+                <div class="form-text" id="interests">
+                    <label>Sở thích</label>
+                    <input type="checkbox" name="interests" value="
+                    readbook" >Đọc sách
+                    <input type="checkbox" name="interests" value="
+                    travel" >Du lịch
+                    <input type="checkbox" name="interests" value="
+                    music" >Âm nhạc
+                    <input type="checkbox" name="interests" value="
+                    cuisine" >Ẩm thực
+                    <input type="checkbox" name="interests" value="
+                    orther" >Khác
+
+                    <span id = "interests-error"></span>                
+                </div>
+                <div class="form-text">
+                    <label>Quốc Gia:</label>
+					<select class="form-control" id="country" onchange="">
+						<option value="">Quốc gia</option>
+                        <option value="">VN</option>
+                        <option value="">VN1</option>
+                        <option value="">VN2</option>
+					</select>     
+                    <span id = "country-error"></span>           
+                </div>
+                <div class="form-text">
+                    <label>Ghi Chú</label>
+                    <input type="text" id="note">
+                    <span id = "note-error"></span>                
+                </div>
+                <button onclick="add();">Đăng kí</button>
+               
+               
+            </form>
+        </div>
+        
+    </div>
+
+    <script src="app.js"></script>
+    <script src='https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js'></script>
+</body>
+</html>

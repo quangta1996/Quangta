@@ -1,0 +1,77 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.signIn{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 500px;
+    max-width: 100%;
+    overflow: hidden;
+    
+}
+.header{
+    background-color: #f7f7f7;
+    padding: 20px 40px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.header h2{
+    margin: 0;
+}
+.form-login{
+    padding: 30px 40px;
+
+}
+.form-text{
+    margin-bottom: 10px;
+    padding-bottom: 20px ;
+}
+.form-text label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+input[type=text], input[type=number] {
+    height: 40px !important;
+    width: 100% !important;
+    padding: 12px 20px !important;
+    margin: 8px 0 !important;
+    display: inline-block !important;
+    border: 1px solid #ccc !important
+    
+}
+.form-text input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    width: 20%;
+    height: 15px;
+    display: inline-block;
+}
+
+.form-login{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+option{
+    width: 20px;
+    height: 30;
+}
+button{
+    height: 35px;
+    width: 150px;
+    display: block;
+    margin-left: 100px;
+}
+span{
+    color: red;
+    background-color: yellow;
+}
